@@ -1,0 +1,49 @@
+
+Task 1: Creating a Neural Network
+
+Capabilities of the Code:
+The code creates and trains a convolutional neural network (CNN) for image classification.
+It uses TensorFlow and Keras for building and training the neural network.
+The model is trained for 5 epochs with a batch size of 64.
+The code also saves the trained model for future use.
+
+Installation and Usage:
+Ensure that TensorFlow and Matplotlib are installed.
+After training, the model is evaluated on the test set, and accuracy and loss metrics are printed.
+The trained model is saved as 'mnist_classifier_model.h5' for future use.
+
+
+
+
+
+Task 2: Working with Databases
+
+Capabilities of the Code:
+The code connects to an SQLite database.An example usage section demonstrates how to add users, retrieve all users, update a user's age, and delete a user.
+
+Installation and Usage:
+Ensure that SQLite is installed, and the necessary Python SQLite library is available.
+Execute the code in a Python environment.
+Functions like add_user, retrieve_users, update_user, and delete_user can be used for interacting with the database.
+
+
+
+
+
+Task 3: Integration with a Google API (Google Sheets)
+
+Capabilities of the Code:
+The code integrates with the Google Sheets API using the gspread library.
+It authenticates the user, accesses a Google Sheets document by key, and retrieves all values from the first sheet.
+The retrieved values are printed as a list of rows.
+
+Installation and Usage:
+Ensure that the necessary libraries like google.colab, gspread, and google.auth are installed.
+Authentication is required, and the user needs to have the necessary permissions to access the Google Sheets document.
+
+
+
+
+
+
+
